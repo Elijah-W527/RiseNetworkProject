@@ -1,0 +1,52 @@
+.post-info * {
+    display: inline-block;
+    padding-right: 5px;
+}
+.post {
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,1);
+    padding: 7px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.delete svg {
+    margin-left: 18px;
+    display: inline-block;
+}
+.likes svg {
+    display: inline-block;
+}
+.likes {
+    margin-left: 30px;
+}
+.post-image-content {
+    margin-bottom: 12px;
+}
+.post-image {
+    border-radius: 10px;
+}
+
+.post-description {
+    padding-left: 0px !important;
+}
+.likes {
+    margin-right: 40px;
+}
+
+.post-profile-img {
+    width: 50px;
+    height: 50px;
+}
+
+.number-text {
+    border-radius: 10px; 
+    background-color: gray; 
+    color: white; 
+    padding: 3px;
+    display: inline;
+}
+
+.side-list * {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -1,0 +1,7 @@
+.limitHeight {
+    min-height: 80vh;
+}
+
+.widthLimit {
+    max-width: 400px;
+}

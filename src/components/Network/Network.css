@@ -1,0 +1,19 @@
+.book {
+    padding: 15px 0 0 0;
+    margin: auto;
+}
+.shelf {
+    border-bottom: 30px solid #A1A194;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    top: -15px;
+    z-index: -1;
+    -webkit-box-reflect: below 8px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
+    margin-bottom: 3%;
+}
+.grid {
+  padding-left: 15%;
+  display: grid;
+  gap: 1rem;
+  grid-auto-flow: column;
+}

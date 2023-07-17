@@ -1,0 +1,291 @@
+.user-body {
+   padding-top: 35px;
+}
+
+.main {
+    padding-left: 4% !important;
+    padding-right: 4% !important;
+}
+.user-info {
+    display: inline-block;
+    width: 100%;
+    background-color: #F3F3F3;
+}
+    
+#about {
+    height: 95px;
+    background-color: #F3F3F3
+}
+.center {
+    display: block;
+    margin: 0 auto;
+}
+#head-img {
+    height: 250px;
+    background-color: #D6D6D6;
+    border-bottom: 0px;
+    border-left: 9px solid white;
+    border-right: 9px solid white;
+    border-top: 9px solid white;
+}
+#profile img {
+    width: 180px;
+    height: 180px;
+    border: 4px solid white;
+}
+#profile {
+    top: -95px;
+}
+
+#profile-options {
+    background-color: #073763;
+    height: 40px;
+    color: white;
+}
+
+
+.col-sm-2 {
+    height: 40px;
+    border-left: 1px solid white;
+    text-align: center;
+}
+
+.sidebar {
+	height: 100vh;
+    width: 220px;
+    float: right;
+    position: relative;
+    padding-left: 50px;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: #073763;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 5px;
+  text-decoration: underline;
+}
+.sidebar h4 {
+  display: block;
+  color: #073763;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 5px;
+}
+
+.sidebar a.active {
+  color: black;
+}
+.sidebar a:hover:not(.active) {
+  color: white;
+}
+.svg-inline--fa.fa-volume-up.fa-w-18 {
+    width: 60%;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: block;
+    margin: auto;
+}
+.svg-inline--fa {
+    width: 40%
+}
+.social:hover {
+    transform: scale(1.15);
+}
+div.content {
+    margin-right: 260px;
+    padding: 1px 16px;
+}
+.icon {
+    background-color: #073763;
+    border-radius: 20px;
+    text-align: center;
+}
+.social {
+    background-color: #2a2e2c;
+    border-radius: 50%;
+    color: white;
+    display:inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: all .2s ease-in-out;
+    width: 50px;
+    height: 50px;
+}
+
+#icon-row {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.col-md-3 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#blog {
+    background-color: #073763;
+}
+@media screen and (max-width: 1200px) {
+    .col-md-3 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+
+    #profile img {
+        width: 150px;
+        height: 150px;
+        border: 3px solid white;
+    }
+    #profile {
+        top: -70px;
+    }
+    #icon-row {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    div.content {
+      margin-right: 0px;
+      padding: 0x;
+    }
+    .icon {
+        width: 100%;
+    }
+    #head-img {
+        height: 200px;
+    }
+
+}
+@media screen and (max-width: 800px) {
+    #about {
+        height: 75px;
+    }
+    .user-body {
+        padding-top: 54px;
+    }
+        #profile img {
+            width: 130px;
+            height: 130px;
+        }
+        #profile {
+            top: -65px;
+        }
+        .col-sm-2 p {
+            padding-left: 0px;
+            padding-right: 0px;
+            font-size: 15px;
+        }
+        .col-md-3 {
+            margin-right: 0px;
+            margin-left: 0px;
+        }
+    }
+
+@media (max-width: 576px) {
+   
+    #profile img {
+        width: 95px;
+        height: 95px;
+        border: 3px solid white;
+
+    }
+    .svg-inline--fa.fa-volume-up.fa-w-18 {
+        width: 50%;
+        color: white;
+    }
+    #profile {
+        height: auto;
+        top: -35px;
+        border: 0px;
+        padding-left: 0px;
+    }
+    #profile p {
+        font-size: 8px;
+    }
+
+    #head-img {
+        height: 180px;
+        border: 0px;
+    }
+    .user-body {
+        padding-top: 55px;
+    }
+    .name {
+        padding-top: 50px;
+    }
+    .col-sm-2 {
+        padding-top: 2px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .col-sm-2 p {
+        font-size: 14.5px;
+    }
+    .center {
+        display: block !important;
+        margin: 0 auto !important;
+    }
+    #follow {
+        border: 0px;
+        margin-left: 0px;
+    }
+    #follow p {
+        font-size: 12px;
+    }
+}
+
+.like-text {
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+.flex-spacing {
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.circle {
+    border-radius: 50%;
+}
+
+#head-img {
+       
+}
+
+.col-sm-6 {
+    margin-bottom: 20px;
+}
+.name h3 {
+    display: inline-block;
+    margin-right: 30px;
+}
+.name {
+    padding-bottom: 15px;
+}
+.name a {
+    margin-bottom: 15px;
+}
+.label {
+    font-weight: bold;
+}
+#search-button {
+  width: 25px;
+  height: 25px;
+  border: 0px;
+  background-color: transparent;
+}
+    
+#search-button svg {
+  width: 25px;
+  height: 25px;
+}
